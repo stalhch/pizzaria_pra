@@ -1,0 +1,309 @@
+<!--Мухина Алина, исп-323-р-->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет - Пицца Царица</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="./images/logo.png">
+</head>
+<body>
+
+    <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Вверх">↑</button>
+
+    <header>
+        <div id="header_top">
+            <div class="header_left">
+                <a href="../index.html" class="logo"><img src="./images/logo.png" alt="logo"></a>
+                <div class="header_name">
+                    <span>ПИЦЦА</span>
+                    <span>ЦАРИЦА</span>
+                </div>
+            </div>
+            <a href="../third_page/basket.html" class="basket">
+                <span>КОРЗИНА</span>
+                <img src="images/basket_card.svg" alt="basket">
+            </a>
+        </div>
+        <div class="header_down">
+            <div class="text_block">
+                <span>ЛИЧНЫЙ КАБИНЕТ</span>   
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="cabinet-container">
+            <div class="cabinet-header">
+                <div class="cabinet-avatar">
+                    <span>АМ</span>
+                </div>
+                <div class="cabinet-title">
+                    <h1>Алина Мухина</h1>
+                    <p>+7 (8172) 123-45-67 · alina@example.com</p>
+                    <p>г. Вологда, ул. Ленина, 15</p>
+                </div>
+            </div>
+
+            <div class="cabinet-tabs">
+                <button class="tab-btn active" data-tab="orders">Мои заказы</button>
+                <button class="tab-btn" data-tab="profile">Профиль</button>
+                <button class="tab-btn" data-tab="bonus">Бонусы</button>
+                <button class="tab-btn" data-tab="addresses">Адреса</button>
+            </div>
+
+            <div id="orders" class="tab-content active">
+                <div class="orders-list">
+                    <div class="order-card">
+                        <div class="order-header">
+                            <span class="order-number">Заказ №1245</span>
+                            <span class="order-date">15 мая 2026, 19:30</span>
+                            <span class="order-status delivering">В пути</span>
+                        </div>
+                        <div class="order-body">
+                            <div class="order-items">
+                                <div class="order-item">
+                                    <span>Пицца "Маргарита" (32 см)</span>
+                                    <span>750 ₽</span>
+                                </div>
+                                <div class="order-item">
+                                    <span>Лимонад "Вологодское лето"</span>
+                                    <span>240 ₽</span>
+                                </div>
+                            </div>
+                            <div class="order-total">Итого: 990 ₽</div>
+                            <a href="#" class="repeat-order">Повторить заказ</a>
+                        </div>
+                    </div>
+
+                    <div class="order-card">
+                        <div class="order-header">
+                            <span class="order-number">Заказ №1238</span>
+                            <span class="order-date">8 мая 2026, 18:15</span>
+                            <span class="order-status delivered">Доставлен</span>
+                        </div>
+                        <div class="order-body">
+                            <div class="order-items">
+                                <div class="order-item">
+                                    <span>Сет "Царский выбор" (24 шт)</span>
+                                    <span>1350 ₽</span>
+                                </div>
+                                <div class="order-item">
+                                    <span>Морс "Северная тройка"</span>
+                                    <span>195 ₽</span>
+                                </div>
+                            </div>
+                            <div class="order-total">Итого: 1545 ₽</div>
+                            <a href="#" class="repeat-order">Повторить заказ</a>
+                        </div>
+                    </div>
+
+                    <div class="order-card">
+                        <div class="order-header">
+                            <span class="order-number">Заказ №1220</span>
+                            <span class="order-date">1 мая 2026, 20:00</span>
+                            <span class="order-status delivered">Доставлен</span>
+                        </div>
+                        <div class="order-body">
+                            <div class="order-items">
+                                <div class="order-item">
+                                    <span>Пицца "Мясное ассорти" (37 см)</span>
+                                    <span>810 ₽</span>
+                                </div>
+                                <div class="order-item">
+                                    <span>Пицца "Пепперони" (32 см)</span>
+                                    <span>700 ₽</span>
+                                </div>
+                                <div class="order-item">
+                                    <span>Коктейль "Царский цитрус"</span>
+                                    <span>320 ₽</span>
+                                </div>
+                            </div>
+                            <div class="order-total">Итого: 1830 ₽</div>
+                            <a href="#" class="repeat-order">Повторить заказ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="profile" class="tab-content">
+                <form class="profile-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Имя</label>
+                            <input type="text" value="Алина" placeholder="Ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label>Фамилия</label>
+                            <input type="text" value="Мухина" placeholder="Ваша фамилия">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Телефон</label>
+                            <input type="tel" value="+7 (8172) 123-45-67" placeholder="+7 (___) ___-__-__">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" value="alina@example.com" placeholder="example@mail.ru">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Дата рождения</label>
+                            <input type="date" value="2000-01-01">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Комментарий к заказу (по умолчанию)</label>
+                            <textarea placeholder="Например: домофон 123, этаж 5"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="save-btn">Сохранить изменения</button>
+                </form>
+            </div>
+
+            <div id="bonus" class="tab-content">
+                <div class="bonus-card">
+                    <div class="bonus-title">Бонусная карта</div>
+                    <div class="bonus-points">1 250 баллов</div>
+                    <div class="bonus-text">1 балл = 1 рубль скидки</div>
+                    <div class="bonus-text">Накопите 2 000 баллов — получите пиццу в подарок!</div>
+                </div>
+                <div class="bonus-history">
+                    <h3>История начислений</h3>
+                    <div class="history-item">
+                        <span>Заказ №1245 от 15.05.2026</span>
+                        <span class="history-points plus">+99 баллов</span>
+                    </div>
+                    <div class="history-item">
+                        <span>Заказ №1238 от 08.05.2026</span>
+                        <span class="history-points plus">+154 балла</span>
+                    </div>
+                    <div class="history-item">
+                        <span>Заказ №1220 от 01.05.2026</span>
+                        <span class="history-points plus">+183 балла</span>
+                    </div>
+                    <div class="history-item">
+                        <span>Списание по заказу №1210</span>
+                        <span class="history-points minus">-300 баллов</span>
+                    </div>
+                    <div class="history-item">
+                        <span>Регистрация в программе лояльности</span>
+                        <span class="history-points plus">+100 баллов</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="addresses" class="tab-content">
+                <div class="addresses-list">
+                    <div class="address-card">
+                        <div class="address-info">
+                            <div class="address-street">г. Вологда, ул. Ленина, 15</div>
+                            <div class="address-details">кв. 42, домофон 42, этаж 5</div>
+                        </div>
+                        <div class="address-actions">
+                            <span class="address-default">Основной</span>
+                            <a href="#">Редактировать</a>
+                            <a href="#">Удалить</a>
+                        </div>
+                    </div>
+                    <div class="address-card">
+                        <div class="address-info">
+                            <div class="address-street">г. Вологда, ул. Пушкинская, 8</div>
+                            <div class="address-details">офис 15, код домофона 123</div>
+                        </div>
+                        <div class="address-actions">
+                            <a href="#">Сделать основным</a>
+                            <a href="#">Редактировать</a>
+                            <a href="#">Удалить</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="add-address">
+                    <a href="#" class="add-address-btn">+ Добавить новый адрес</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_top">
+            <div class="footer_logo">
+                <div class="footer_name">
+                    <span>ПИЦЦА</span> 
+                    <span>ЦАРИЦА</span>
+                </div>
+                <a href="../index.html">
+                    <img src="./images/logo_foot.png" alt="glavnaya" class="main_page">
+                </a>
+            </div>
+
+            <a href="#" class="top">
+                ВВЕРХ
+            </a>
+
+            <div class="list" id="delivery_list">
+                <span class="name_list">Доставка</span>
+                <ul>
+                    <li>Бесплатная доставка при заказе от 999 руб.</li>
+                    <li>Время доставки: от 60 минут</li>
+                    <li>Самовывоз со скидкой 10%</li>
+                    <li>Подробные условия доставки</li>
+                </ul>
+            </div>
+        </div>
+        <div class="stick"></div>
+        <div class="footer_down">
+            <div class="list" id="contacts_list">
+                <span class="name_list">Контакты</span>
+                <ul>
+                    <li>Адрес: г. Вологда, ул. Ленина, 15</li>
+                    <li>Телефон: +7 (8172) 123-45-67</li>
+                    <li>Email: pizzaa_car_35@mail.ru</li>
+                    <li>Режим работы: ежедневно с 10:00 до 23:00</li>
+                </ul>
+            </div>
+            <div class="list" id="nav_list">
+                <span class="name_list">Навигация</span>
+                <ul>
+                    <div class="left_list">
+                        <li><a href="../index.html#catalog_pizza">КАТАЛОГ</a></li>
+                        <li><a href="../second_page/info.html#comments">ОТЗЫВЫ</a></li>
+                        <li><a href="../third_page/basket.html">КОРЗИНА</a></li>
+                        <li><a href="../four_page/cabinet.html">ЛИЧНЫЙ КАБИНЕТ</a></li>
+                    </div>
+                    <div class="right_list">
+                        <li><a href="../index.html#drinks">НАПИТКИ</a></li>
+                        <li><a href="../index.html#rolls">РОЛЛЫ</a></li>
+                        <li><a href="../second_page/info.html#about">О НАС</a></li>
+                        <li><a href="../second_page/info.html#pay">ОПЛАТА</a></li>
+                    </div>
+                </ul>
+            </div>
+        
+            <div class="links">
+                <div id="links_vk">
+                    <div class="images_string" >
+                        <a href=""><img src="./images/links/odno.png" alt="" id="squire"></a>
+                        <a href=""><img src="./images/links/vk.png" alt="" id="squire"></a>
+                        <a href=""><img src="./images/links/tg.png" alt="" id="squire"></a>
+                    </div>
+                    <div class="images_string" >
+                        <a href=""><img src="./images/links/world.png" alt=""></a>
+                        <a href=""><img src="./images/links/visa.png" alt=""></a>
+                        <a href=""><img src="./images/links/mastercard.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="copy">
+                    © 2026 Кафе «Пицца Царица», Вологда. <a href="">Все права защищены.</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

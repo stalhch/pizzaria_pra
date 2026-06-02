@@ -1,0 +1,687 @@
+<!--Мухина Алина, исп-323-р-->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пицца Царица</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="./images/logo.png">
+</head>
+<body>
+
+    <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Вверх">↑</button>
+
+    <header>
+        <div id="header_top">
+            <div class="header_left">
+                <a href="#" class="logo"><img src="./images/logo.png" alt="logo"></a>
+                <div class="header_name">
+                    <span>ПИЦЦА</span>
+                    <span>ЦАРИЦА</span>
+                </div>
+                <div class="payment">
+                        <a href="" class="payment_but" id="delivery">ДОСТАВКА</a>
+                        <a href="" class="payment_but" id="self">САМОВЫВОЗ</a>
+                </div>
+            </div>
+            <a href="" class="burger">
+                <img src="./images/burg.png">
+            </a>
+            <a href="./third_page/basket.html" class="basket">
+                    <span>КОРЗИНА</span>
+                    <img src="images/basket_card.svg">
+            </a>
+        </div>
+        <div class="header_down">
+            <div class="text_block">
+                <span>ДОСТАВКА</span>
+                <span>ароматной пиццы в </span>
+                <span>Вологде</span>    
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="nav_header">
+            <a href="#catalog_pizza" class="nav_but">КАТАЛОГ</a>
+            <a href="./second_page/info.html#about" class="nav_but">О НАС</a>
+            <a href="./second_page/info.html#pay" class="nav_but">ОПЛАТА</a>
+            <a href="./second_page/info.html#comments" class="nav_but" id="swipe">ОТЗЫВЫ</a>
+            <a href="./four_page/cabinet.html" class="nav_but" id="swipe">ЛИЧНЫЙ КАБИНЕТ</a>
+        </div>
+        <div class="nav_catalog">
+            <a href="#catalog_pizza" class="nav_but">ПИЦЦА</a>
+            <a href="#favorite_pizza" class="nav_but">ОСОБОЕ</a>
+            <a href="#rolls" class="nav_but">РОЛЛЫ</a>
+            <a href="#drinks" class="nav_but">НАПИТКИ</a>
+        </div>
+
+        <div class="stick"></div>
+
+        <section>
+
+            <div class="block" id="catalog_pizza">
+                <div class="block_name">
+                    КАТАЛОГ
+                </div>
+                <div class="cards">
+                        <div class="item">
+                            <img src="./images/first_block/margo.png" alt="margarita">
+                            <div class="item_text">
+                                <div class="item_name">ПИЦЦА "МАРГАРИТА"</div>
+                                <div class="item_describtion">
+                                    Классика итальянской кухни: нежное томатное соусное основание, моцарелла и свежие листья базилика. Простота, доведённая до совершенства.
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">750 рублей</span>
+                                    <div class="size">
+                                        <div class="size_item" id="size_32">32 см</div>
+                                        <div class="size_item" id="size_37">37 см</div>
+                                    </div>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/first_block/pepe.png" alt="peperony">
+                            <div class="item_text">
+                                <div class="item_name">ПИЦЦА "ПЕППЕРОНИ"</div>
+                                <div class="item_describtion">
+                                    Острая и ароматная пицца с пикантной колбасой пепперони, щедрой порцией моцареллы и томатным соусом. Для тех, кто любит яркие вкусы.    
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">700 рублей</span>
+                                    <div class="size">
+                                        <div class="size_item" id="size_32">32 см</div>
+                                        <div class="size_item" id="size_37">37 см</div>
+                                    </div>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/first_block/cheese.png" alt="four">
+                            <div class="item_text">
+                                <div class="item_name">ПИЦЦА  “ЧЕТЫРЕ СЫРА”</div>
+                                <div class="item_describtion">
+                                    Гармония сыров: моцарелла, пармезан, горгонзола и эмменталь. Насыщенный сливочный вкус с благородной остринкой.
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">690 рублей</span>
+                                    <div class="size">
+                                        <div class="size_item" id="size_32">32 см</div>
+                                        <div class="size_item" id="size_37">37 см</div>
+                                    </div>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <img src="./images/first_block/meat.png" alt="margarita">
+                            <div class="item_text">
+                                <div class="item_name">ПИЦЦА  “МЯСНОЕ АССОРТИ”</div>
+                                <div class="item_describtion">
+                                    Щедрость мясных ингредиентов: пепперони, ветчина, бекон и колбаски чоризо под расплавленной моцареллой. Для настоящих гурманов.    
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">810 рублей</span>
+                                    <div class="size">
+                                        <div class="size_item" id="size_32">32 см</div>
+                                        <div class="size_item" id="size_37">37 см</div>
+                                    </div>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/first_block/cesar.png" alt="peperony">
+                            <div class="item_text">
+                                <div class="item_name">ПИЦЦА  “ЦЕЗАРЬ С КУРИЦЕЙ”</div>
+                                <div class="item_describtion">
+                                    Не пицца, а целая гастрономическая история: куриная грудка, салат айсберг, томаты черри, соус «Цезарь» и тёртый пармезан на тонком тесте.    
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">780 рублей</span>
+                                    <div class="size">
+                                        <div class="size_item" id="size_32">32 см</div>
+                                        <div class="size_item" id="size_37">37 см</div>
+                                    </div>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/first_block/mushroom.png" alt="mushroom">
+                            <div class="item_text">
+                                <div class="item_name">ПИЦЦА  “ГРИБНАЯ ФАНТАЗИЯ”</div>
+                                <div class="item_describtion">
+                                    Аромат лесных грибов, сливочный соус, моцарелла и трюфельное масло. Нежная текстура и богатый вкус.    
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">700 рублей</span>
+                                    <div class="size">
+                                        <div class="size_item" id="size_32">32 см</div>
+                                        <div class="size_item" id="size_37">37 см</div>
+                                    </div>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/first_block/fish.png" alt="margarita">
+                            <div class="item_text">
+                                <div class="item_name">ПИЦЦА  “МОРЕМАН”</div>
+                                <div class="item_describtion">
+                                    Дары моря на пицце: креветки, кальмары, мидии и лосось под соусом альфредо и моцареллой. Путешествие к Средиземноморью в каждом кусочке.                                </div>
+                                <div class="item_price">
+                                    <span class="price">890 рублей</span>
+                                    <div class="size">
+                                        <div class="size_item" id="size_32">32 см</div>
+                                        <div class="size_item" id="size_37">37 см</div>
+                                    </div>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/first_block/vegan.png" alt="peperony">
+                            <div class="item_text">
+                                <div class="item_name">ПИЦЦА  “ВЕГЕТАРИАНСКАЯ РАДУГА”</div>
+                                <div class="item_describtion">
+                                    Сочные овощи на каждый день: баклажаны, кабачки, болгарский перец, помидоры, шпинат и маслины. Лёгкость и польза в каждой порции.    
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">750 рублей</span>
+                                    <div class="size">
+                                        <div class="size_item" id="size_32">32 см</div>
+                                        <div class="size_item" id="size_37">37 см</div>
+                                    </div>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/first_block/carr.png" alt="mushroom">
+                            <div class="item_text">
+                                <div class="item_name">ПИЦЦА  “ЦАРСКАЯ РОСКОШЬ”</div>
+                                <div class="item_describtion">
+                                    Трюфельное масло, белые грибы, моцарелла, пармезан и руккола на тонком тесте. Финальный штрих капля бальзамического крема. 
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">820 рублей</span>
+                                    <div class="size">
+                                        <div class="size_item" id="size_32">32 см</div>
+                                        <div class="size_item" id="size_37">37 см</div>
+                                    </div>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+
+            <div class="block" id="favorite_pizza">
+                <div class="block_name">
+                    НАШИ ФАВОРИТЫ
+                </div>
+                <div class="cards">
+                        <div class="item">
+                            <img src="./images/second_block/smoke.png">
+                            <div class="item_text">
+                                <div class="item_name">ПИЦЦА  “ДЫМОК НА УГЛЯХ”</div>
+                                <div class="item_describtion">
+                                    Копчёная куриная грудка, бекон, красный лук, соус барбекю и моцарелла. Посыпано копчёной паприкой. Аромат дымка, как от мангала.
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">810 рублей</span>
+                                    <div class="size">
+                                        <div class="size_item" id="size_32">32 см</div>
+                                        <div class="size_item" id="size_37">37 см</div>
+                                    </div>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/second_block/forest.png" alt="peperony">
+                            <div class="item_text">
+                                <div class="item_name">ПИЦЦА  “ЛЕСНАЯ СКАЗКА”</div>
+                                <div class="item_describtion">
+                                    Микс лесных грибов (шампиньоны, опята, лисички), сливочный соус вместо томатного, моцарелла и тимьян. Украшена свежей зеленью.
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">700 рублей</span>
+                                    <div class="size">
+                                        <div class="size_item" id="size_32">32 см</div>
+                                        <div class="size_item" id="size_37">37 см</div>
+                                    </div>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/second_block/berry.png" alt="four">
+                            <div class="item_text">
+                                <div class="item_name">ПИЦЦА  “СЕВЕРНАЯ ЯГОДА”</div>
+                                <div class="item_describtion">
+                                    Необычное сочетание: моцарелла, горгонзола, груша и брусника. Слегка полито мёдом и посыпано грецкими орехами. Сладко‑острый баланс.
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">720 рублей</span>
+                                    <div class="size">
+                                        <div class="size_item" id="size_32">32 см</div>
+                                        <div class="size_item" id="size_37">37 см</div>
+                                    </div>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <img src="./images/second_block/vologda.png" alt="margarita">
+                            <div class="item_text">
+                                <div class="item_name">ПИЦЦА  “ВОЛОГОДСКОЕ УТРО”</div>
+                                <div class="item_describtion">
+                                    Сливочный соус, моцарелла, слабосолёный лосось, свежий огурец и укроп. Лёгкая, свежая пицца с северным характером.
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">810 рублей</span>
+                                    <div class="size">
+                                        <div class="size_item" id="size_32">32 см</div>
+                                        <div class="size_item" id="size_37">37 см</div>
+                                    </div>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/second_block/dracon.png" alt="peperony">
+                            <div class="item_text">
+                                <div class="item_name">ПИЦЦА  “ОГНЕННЫЙ ДРАКОН”</div>
+                                <div class="item_describtion">
+                                    Острая пепперони, халапеньо, красный лук и соус шрирача под моцареллой. Для тех, кто любит погорячее.
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">780 рублей</span>
+                                    <div class="size">
+                                        <div class="size_item" id="size_32">32 см</div>
+                                        <div class="size_item" id="size_37">37 см</div>
+                                    </div>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/second_block/tron.png" alt="mushroom">
+                            <div class="item_text">
+                                <div class="item_name">ПИЦЦА  “МЯСНОЙ ТРОН”</div>
+                                <div class="item_describtion">
+                                    Ветчина, пепперони, чоризо, бекон и колбаски. Обильная порция моцареллы и томатный соус. Для тех, кому нужно основательно подкрепиться.
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">840 рублей</span>
+                                    <div class="size">
+                                        <div class="size_item" id="size_32">32 см</div>
+                                        <div class="size_item" id="size_37">37 см</div>
+                                    </div>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="block" id="rolls">
+                <div class="block_name">
+                    РОЛЛЫ
+                </div>
+                <div class="cards">
+                        <div class="item">
+                            <img src="./images/thrid_block/queen.png">
+                            <div class="item_text">
+                                <div class="item_name">СЕТ “ЦАРСКИЙ ВЫБОР”</div>
+                                <div class="item_describtion">
+                                    <ul>
+                                        <li>«Филадельфия» (8 шт): лосось, сливочный сыр, огурец, кунжут. Нежный и сбалансированный вкус.</li>
+                                        <li>«Калифорния» (8 шт.): крабовый микс, авокадо, огурец, икры тобико. Классика с хрустящей икрой.</li>
+                                        <li>«Дракон» (8 шт.): угорь, огурец, сливочный сыр; сверху - авокадо и угорь, полито соусом унаги. Изысканное сочетание текстур.</li>
+                                    </ul>
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">1350 РУБ. (24 ШТ.)</span>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/thrid_block/sea_neigh.png" alt="peperony">
+                            <div class="item_text">
+                                <div class="item_name">СЕТ “МОРЕ В ГОСТЯХ”</div>
+                                <div class="item_describtion">
+                                    <ul>
+                                        <li>«Креветочная фантазия» (8 шт.):  тигровые креветки, авокадо, огурец, сливочный сыр. Нежность креветок и сливочная мягкость.</li>
+                                        <li>«Угорь и авокадо» (8 шт.): угорь, авокадо, огурец, полит соусом унаги. Классическое сочетание с дымными нотами.</li>
+                                        <li>«Морской бриз» (8 шт.): микс из креветок, кальмара и мидий, огурец, сливочный сыр, икра тобико. Полный букет морских вкусов..</li>
+                                    </ul>
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">1580 РУБ. (24 ШТ.)</span>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/thrid_block/child.png" alt="DETSKY PRAZDNIK">
+                            <div class="item_text">
+                                <div class="item_name">СЕТ “ДЕТСКИЙ ПРАЗДНИК”</div>
+                                <div class="item_describtion">
+                                    <ul>
+                                        <li>Ролл «Цыплёнок» (6 шт.): куриная грудка гриль, огурец, сливочный сыр. Знакомый  любимый вкус.</li>
+                                        <li>Ролл «Фруктовый сюрприз» (6 шт.): банан, клубника, мягкий сыр. Сладкий и необычный вариант.</li>
+                                        <li>Ролл «Овощной» (6 шт.): огурец, авокадо, сладкий перец. Свежесть и витамины.</li>
+                                    </ul>
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">1130 РУБ. (18 ШТ.)</span>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/thrid_block/vologda_roll.png" alt="peperony">
+                            <div class="item_text">
+                                <div class="item_name">СЕТ “ВОЛОГОДСКИЙ МОТИВ”</div>
+                                <div class="item_describtion">
+                                    <ul>
+                                        <li>Ролл с лососем и брусникой (8 шт.): слабосолёный лосось, сливочный сыр, свежий огурец, брусника. Легкая ягодная кислинка.</li>
+                                        <li>Ролл «Северная ягода» (8 шт.): сливочный сыр, авокадо, огурец, крабовый микс; сверху - ломтики сёмги и брусничный соус.</li>
+                                        <li>Ролл с копчёным угрём (8 шт.): угорь, огурец, сливочный сыр; полит соусом унаги и посыпан кунжутом. Дымный аромат и нежная текстура.</li>
+                                    </ul>
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">1850 РУБ. (24 ШТ.)</span>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/thrid_block/hit.png" alt="hit">
+                            <div class="item_text">
+                                <div class="item_name">СЕТ “ОСТРЫЙ ВЫЗОВ”</div>
+                                <div class="item_describtion">
+                                    <ul>
+                                        <li>«Спайси тунец» (8 шт.): тунец, огурец, спайси-соус, кунжут. Острый и сочный.</li>
+                                        <li>«Огненный лосось» (8 шт.): лосось, авокадо, спайси-соус, лук фри. Нежная рыба и хрустящая корочка.</li>
+                                        <li>«Тайский дракон» (8 шт.): креветка темпура, огурец, перец халапенью, спайси-соус. Максимум остроты и хруста.</li>
+                                    </ul>
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">1580 РУБ. (24 ШТ.)</span>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/thrid_block/sea_neigh.png" alt="peperony">
+                            <div class="item_text">
+                                <div class="item_name">СЕТ “ВЕГЕТАРИАНСКИЙ РАЙ”</div>
+                                <div class="item_describtion">
+                                    <ul>
+                                        <li>«Авокадо‑микс» (6 шт.): авокадо, огурец, болгарский перец, кунжут. Свежесть в каждом кусочке.</li>
+                                        <li>«Овощной темпура» (6 шт.): кабачок, сладкий перец, морковь в легком кляре. Хрустящие и ароматные.</li>
+                                        <li>«Запечённый тофу» (6 шт.): тофу, огурец, морковь, сливочный сыр; запечены под сырной корочкой. Нежная текстура и насыщенный вкус.</li>
+                                    </ul>
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">1080 РУБ. (18 ШТ.)</span>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="block" id="drinks">
+                <div class="block_name">
+                   НАПИТКИ
+                </div>
+                <div class="cards">
+                        <div class="item">
+                            <img src="./images/fourth_block/summer.png">
+                            <div class="item_text">
+                                <div class="item_name">ЛИМОНАД “ВОЛОГОДСКОЕ ЛЕТО”</div>
+                                <div class="item_describtion">
+                                    Освежающий лимонад с нотами мяты и северных ягод. Лёгкая кислинка и травяная свежесть идеально дополняют пиццу и закуски.
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">240 РУБ. (250 МЛ)</span>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/fourth_block/north.png" alt="peperony">
+                            <div class="item_text">
+                                <div class="item_name">МОРС “СЕВЕРНАЯ ТРОЙКА”</div>
+                                <div class="item_describtion">
+                                    Традиционный вологодский морс из трёх северных ягод насыщенный, освежающий, с легкой приятной кислинкой. Отлично сочетается с мясными пиццами и горячими блюдами.
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">195 РУБ. (210 МЛ)</span>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/fourth_block/citrus.png" alt="DETSKY PRAZDNIK">
+                            <div class="item_text">
+                                <div class="item_name">КОКТЕЙЛЬ “ЦАРСКИЙ ЦИТРУС”</div>
+                                <div class="item_describtion">
+                                    Яркий безалкоголный коктейль с цитрусовыми нотами и ягодной глубиной. Подходит к сырной пицце и средиземноморсикм блюдам.
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">320 РУБ. (250 МЛ)</span>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/fourth_block/cucumber.png" alt="peperony">
+                            <div class="item_text">
+                                <div class="item_name">ЛИМОНАД “МЯТНО-ОГУРЕЧНЫЙ БРИЗ”</div>
+                                <div class="item_describtion">
+                                    Ультрасвежий лимонад с прохладой огурца и ароматом мяты. Лёгкий и бодрящий, идеален для жаркого дня и в паре с морепродуктами.
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">150 РУБ. (270 МЛ)</span>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/fourth_block/tron_ber.png" alt="hit">
+                            <div class="item_text">
+                                <div class="item_name">МОРС “ЯГОДНЫЙ ТРОН”</div>
+                                <div class="item_describtion">
+                                    Густой, ароматный морс с богатым вкусом лесных ягод. Тёплый вариант согреет зимой, а охлажденный утолит жажду летом. Прекрасно дополняет сытные мясные пиццы.
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">240 РУБ. (350 МЛ)</span>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/fourth_block/rozmar.png" alt="peperony">
+                            <div class="item_text">
+                                <div class="item_name">КОКТЕЙЛЬ “НЕЖНЫЙ РОЗМАРИН”</div>
+                                <div class="item_describtion">
+                                    Изысканный безалкогольный коктейль с травяными нотами розмарина и сладостью груши. Элегантное дополнение к пиццам с сыром и овощами.
+                                </div>
+                                <div class="item_price">
+                                    <span class="price">315 РУБ. (265 МЛ)</span>
+                                </div>
+                                <a href="" class="in_bask">
+                                    В КОРЗИНУ
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_top">
+            <div class="footer_logo">
+                <div class="footer_name">
+                    <span>ПИЦЦА</span> 
+                    <span>ЦАРИЦА</span>
+                </div>
+                <a href="#">
+                    <img src="./images/logo_foot.png" alt="glavnaya" class="main_page">
+                </a>
+            </div>
+
+            <a href="" class="top">
+                ВВЕРХ
+            </a>
+
+            <div class="list"  id="delivery_list">
+                <span class="name_list">Доставка</span>
+                <ul>
+                    <li>Бесплатная доставка при заказе от 999 руб.</li>
+                    <li>Время доставки: от 60 минут</li>
+                    <li>Самовывоз со скидкой 10 %</li>
+                    <li>Подробные условия доставки</li>
+                </ul>
+            </div>
+        </div>
+        <div class="stick"></div>
+        <div class="footer_down">
+            <div class="list"  id="contacts_list">
+                <span class="name_list">Контакты</span>
+                <ul>
+                    <li>Адрес: г. Вологда, ул. Ленина, 15</li>
+                    <li>Телефон: +7 (8172) 123‑45‑67</li>
+                    <li>Email: pizzaa_car_35@mail.ru </li>
+                    <li>Режим работы: ежедневно с 10:00 до 23:00</li>
+                </ul>
+            </div>
+            <div class="list" id="nav_list">
+                <span class="name_list">Навигация</span>
+                <ul>
+                    <div class="left_list">
+                        <li><a href="#catalog_pizza">КАТАЛОГ</a></li>
+                        <li><a href="./second_page/info.html#comments">ОТЗЫВЫ</a></li>
+                        <li><a href="./third_page/basket.html">КОРЗИНА</a></li>
+                        <li><a href="./four_page/cabinet.html">ЛИЧНЫЙ КАБИНЕТ</a></li>
+                    </div>
+                    <div class="right_list">
+                        <li><a href="#drinks">НАПИТКИ</a></li>
+                        <li><a href="#rolls">РОЛЛЫ</a></li>
+                        <li><a href="./second_page/info.html#about">О НАС</a></li>
+                        <li><a href="./second_page/info.html#pay">ОПЛАТА</a></li>
+                    </div>
+                </ul>
+            </div>
+        
+            <div class="links">
+                <div id="links_vk">
+                    <div class="images_string" >
+                        <a href=""><img src="./images/links/odno.png" alt="" id="squire"></a>
+                        <a href=""><img src="./images/links/vk.png" alt="" id="squire"></a>
+                        <a href=""><img src="./images/links/tg.png" alt="" id="squire"></a>
+                    </div>
+                    <div class="images_string" >
+                        <a href=""><img src="./images/links/world.png" alt=""></a>
+                        <a href=""><img src="./images/links/visa.png" alt=""></a>
+                        <a href=""><img src="./images/links/mastercard.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="copy">
+                    © 2026 Кафе «Пицца Царица», Вологда. <a href="">Все права защищены.</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+   <script src="script.js" defer></script>
+</body>
+</html>
