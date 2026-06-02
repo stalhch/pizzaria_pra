@@ -1015,14 +1015,14 @@ footer .stick{
 @media (max-width:420px){
     footer{
         width: 375px;
-        height: 680px;  
+        height: 720px;  
         background: linear-gradient(180deg, #EEEEEE 13%, #590303 39%);
         font-size: 12px;
     }
 
     .footer_top{
         flex-direction: column;
-        width: 320px;
+        width: 310px;
     }
 
         #delivery_list{
@@ -1078,11 +1078,12 @@ footer .stick{
     #nav_list li{
         font-size: 12px;
         margin: 12px 0;
+        width: 110px;
     }
 
     .links{
-        width:320px;
-        height: 130px;
+        width:375px;
+        height: 150px;
         padding: 30px 20px 0 0;
     }
 
