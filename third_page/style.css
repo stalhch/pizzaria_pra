@@ -800,19 +800,14 @@ footer .stick{
 @media (max-width:420px){
     footer{
         width: 375px;
-        height: 680px;  
+        height: 720px;  
         background: linear-gradient(180deg, #EEEEEE 13%, #590303 39%);
         font-size: 12px;
     }
 
     .footer_top{
         flex-direction: column;
-        padding: 0%;
-        width: 375px;
-    }
-
-    .footer_down{
-        width: 375px;
+        width: 310px;
     }
 
         #delivery_list{
@@ -825,7 +820,7 @@ footer .stick{
     }
 
     .footer_logo{
-        margin-left: 100px;
+        margin-left: 60px;
         flex-direction: row;
         align-items: center;
     }
@@ -837,6 +832,10 @@ footer .stick{
     .footer_name{
         font-size: 20px;
         margin-right: 20px;
+    }
+
+    .footer_down{
+        width: 375px;
     }
 
     .list li{
@@ -864,11 +863,12 @@ footer .stick{
     #nav_list li{
         font-size: 12px;
         margin: 12px 0;
+        width: 110px;
     }
 
     .links{
         width:375px;
-        height: 130px;
+        height: 150px;
         padding: 30px 20px 0 0;
     }
 
