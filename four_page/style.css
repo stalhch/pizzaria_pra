@@ -833,6 +833,7 @@ main {
 
     #nav_list li {
         text-align: left;
+        width: 110px;
     }
 
     .right_list, .left_list {
