@@ -895,7 +895,6 @@ header{
     }
 }
 
-
 footer{
     width: 1440px;
     height: 442px;
@@ -1125,15 +1124,14 @@ footer .stick{
 @media (max-width:420px){
     footer{
         width: 375px;
-        height: 680px;  
+        height: 720px;  
         background: linear-gradient(180deg, #EEEEEE 13%, #590303 39%);
         font-size: 12px;
     }
 
     .footer_top{
         flex-direction: column;
-        width: 375px;
-        padding: 0%;
+        width: 310px;
     }
 
         #delivery_list{
@@ -1146,7 +1144,7 @@ footer .stick{
     }
 
     .footer_logo{
-        margin-left: 100px;
+        margin-left: 60px;
         flex-direction: row;
         align-items: center;
     }
@@ -1189,11 +1187,12 @@ footer .stick{
     #nav_list li{
         font-size: 12px;
         margin: 12px 0;
+        width: 110px;
     }
 
     .links{
         width:375px;
-        height: 130px;
+        height: 150px;
         padding: 30px 20px 0 0;
     }
 
